@@ -12,4 +12,8 @@
 - Se modifica la función para que cambie a amarillo al hacer click, pero tiene el color verde por defecto. (1 pto)
 
 ## Ejercicio 4: Construir 4_colores.html
+- Se agregan los 4 divs con colores azul, rojo, verde, amarillo. (1 pto)
+- Cambio de color a negro al hacer click sobre los div (1 pto)
+- Cambiar color con las teclas a,s,d (1 pto)
+- 
 
