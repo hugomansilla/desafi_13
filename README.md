@@ -15,5 +15,5 @@
 - Se agregan los 4 divs con colores azul, rojo, verde, amarillo. (1 pto)
 - Cambio de color a negro al hacer click sobre los div (1 pto)
 - Cambiar color con las teclas a,s,d (1 pto)
-- 
+- Agregar div con diferentes color con las teclas q,w,e (1 pto)
 

@@ -24,13 +24,28 @@ function CambiarColor(color) {
     ele5.style.backgroundColor = color;
 }
 
+function NuevoDiv(color) {
+    contenedor = document.getElementById("contenedor");
+    nuevoElemento = document.createElement("div");
+    nuevoElemento.textContent = "Sabado";
+    nuevoElemento.style.backgroundColor = color;
+    contenedor.appendChild(nuevoElemento);
+}
+
 document.addEventListener('keydown', function (event) {
     if (event.key === 'a') {
-        CambiarColor("red");
+        CambiarColor("pink");
     } else if (event.key === 's') {
-        CambiarColor("blue");
+        CambiarColor("orange");
     } else if (event.key === "d") {
-        CambiarColor("green");
-    }
+        CambiarColor("blue");
+    } else if (event.key === "q") {
+        NuevoDiv("red");
+    } else if (event.key === "w") {
+        NuevoDiv("gray");
+    } else if (event.key === "e") {
+        NuevoDiv("black");
+    } 
+
 })
     
